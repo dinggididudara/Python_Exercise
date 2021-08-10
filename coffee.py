@@ -1,6 +1,6 @@
 
 coffee_price = 0
-while True: #first letter is capital
+while True: # true - first letter is capital
 
     print('''
         Coffee machine
@@ -21,7 +21,7 @@ while True: #first letter is capital
     elif order ==3:
         coffee_price = 3
 
-    cups = input("how many cups? : ")
+    cups = int(input("how many cups? : "))
     total_price = coffee_price * cups
 
     received = int(input(f"total price is {total_price } dollar. >>"))
