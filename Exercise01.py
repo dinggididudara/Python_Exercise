@@ -3,6 +3,8 @@
 # print("신씨가 소리질렀다. \"도둑이야\"") #escape
 # print("C:\Windows")
 # print("오늘은","일요일") #구분은 space 로, comment=#
+print('Hello','python!') #space 중간에 넣어줌. Hello python!
+print('hello'+'python!') #중간에 공백 없음. hellopython!
 # #-----------------------------------------------
 # a = 5000
 # b = 5000 * 10
